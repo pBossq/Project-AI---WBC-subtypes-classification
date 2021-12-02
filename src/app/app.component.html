@@ -1,0 +1,86 @@
+<div class="container mt_1">
+  <!-- BEGIN ROW -->
+  <div class="row">
+    <div class="col-12">
+      <!-- BEGIN CARD -->
+      <div class="card">
+        <div class="card-body">
+          <h5>เม็ดเลือดขาว</h5>
+          <span class="indentDesc">
+               {{bloodCellDescription}}
+          </span>
+        </div>
+      </div>
+       <!-- END CARD -->
+    </div>
+  </div>
+  <!-- END ROW -->
+  <!-- BEGIN ROW -->
+  <div class="row">
+    <div class="col-5" style="text-align:center">
+      <!-- BEGIN CARD -->
+      <div class="card">
+        <div class="card-body">
+          <div [innerHtml]='msg' *ngIf="msg" style="color: red;"></div>
+          <div *ngIf="url">
+            <img [src]="url" id="imagePredict">
+          </div>
+          <p>
+            <input id="upload" type="file" (change)="selectFile($event)" hidden/>
+            <label for="upload">เลือกรูป</label>
+          </p>
+          {{image_name}}
+        </div>
+      </div>
+      <!-- END CARD -->
+    </div>
+    <div class="col-7">
+       <!-- BEGIN CARD -->
+       <div class="card">
+        <div class="card-body">
+          <b><p>ผลทำนาย</p></b>
+          <p [ngClass]="{'highlight' : eosinophil == maxValue}">อิโอซิโนฟิลด์ (Eosinophil) : {{eosinophil}}</p>
+          <p [ngClass]="{'highlight' : lymphocyte == maxValue}">ลิมไฟไซท์ (Lymphocyte) : {{lymphocyte}}</p>
+          <p [ngClass]="{'highlight' : monocyte == maxValue}">โมโนไซท์ (Monocyte) : {{monocyte}}</p>
+          <p [ngClass]="{'highlight' : neutrophil == maxValue}">นิวโตรฟิล (Neutrophil) : {{neutrophil}}</p>
+        </div>
+      </div>
+      <!-- END CARD -->
+      <!-- BEGIN CARD -->
+      <div *ngIf="isShowDescription" class="card mt_1">
+        <div class="card-body bloodCellDesc">
+          <!-- BEGIN DESCRIPTION -->
+           <div *ngIf="eosinophil == maxValue">
+             <p><b>{{eosinophilTitle}}</b></p>
+             <span class="indentDesc">{{eosinophilDesc}}</span>
+           </div>
+           <div *ngIf="lymphocyte == maxValue">
+              <p><b>{{lymphocyteTitle}}</b></p>
+             <span class="indentDesc">{{lymphocyteDesc}}</span>
+           </div>
+           <div *ngIf="monocyte == maxValue">
+            <p><b>{{monocyteTitle}}</b></p>
+            <span class="indentDesc">{{monocyteDesc}}</span>
+           </div>
+           <div *ngIf="neutrophil == maxValue">
+             <p><b>{{neutrophilTitle}}</b></p>
+             <span class="indentDesc">{{neutrophilDesc}}</span>
+           </div>
+           <!-- END DESCRIPTION -->
+        </div>
+      </div>
+      <!-- END CARD -->
+    </div>
+  </div>
+  <!-- END ROW -->
+  <footer>
+      <a href="https://drive.google.com/drive/folders/14gW3ki3uWM8Av6fOtMh1zODg2RWyJoGO?usp=sharing" target="_blank">image for test</a>
+  </footer>
+</div>
+
+
+
+
+
+
+

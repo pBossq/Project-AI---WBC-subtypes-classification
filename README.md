@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Install node.js `https://nodejs.org/en/download/`
 After Install try `node -v` and `npm -v`
-2. `npm install -g @angular/cli`
+2. `npm install -g @angular/cli` After Install try `ng --version`
 3. `npm install`
 4. `npm install @tensorflow/tfjs`
 ## Development server 
@@ -24,7 +24,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-**don't forget "web.config" put in `dist/` directory**
+## ****don't forget put "web.config" in `dist/` directory !**
+
 
 ## Running unit tests
 
