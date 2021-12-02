@@ -1,9 +1,19 @@
-# predictBloodCells_CNN
-firstTime project ML
+# Project AI WBC-subtypes-classification FrontEnd
+
+**Convolutional neural network (CNN, or ConvNet)**
+
+![This is an image](https://miro.medium.com/max/1400/1*kkyW7BR5FZJq4_oBTx3OPQ.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
-## Development server
+## First Time ?
+
+1. Install node.js `https://nodejs.org/en/download/`
+After Install try `node -v` and `npm -v`
+2. `npm install -g @angular/cli`
+3. `npm install`
+4. `npm install @tensorflow/tfjs`
+## Development server 
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -14,6 +24,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**don't forget "web.config" put in `dist/` directory**
 
 ## Running unit tests
 
