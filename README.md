@@ -4,6 +4,11 @@
 
 ![This is an image](https://miro.medium.com/max/1400/1*kkyW7BR5FZJq4_oBTx3OPQ.png)
 
+# **White blood cell Model Architecture**
+
+
+![This is an image](https://raw.githubusercontent.com/pBossq/Project_AI_WBC-subtypes-classification/main/Model%20Architecture%20CNN.jpg)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
 ## First Time ?
