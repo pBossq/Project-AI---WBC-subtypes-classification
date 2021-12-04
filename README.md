@@ -50,3 +50,24 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 -----------------------------------------------------------------------------------------------------------------------
 
 # web application : `https://bloodcellspredict.azurewebsites.net`
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+![This is an image](https://raw.githubusercontent.com/pBossq/Project_AI_WBC-subtypes-classification/main/preview_webapp/1.jpg)
+
+## prediction that Eosinophil
+
+![This is an image](https://raw.githubusercontent.com/pBossq/Project_AI_WBC-subtypes-classification/main/preview_webapp/2.jpg)
+
+## prediction that Lymphocyte
+
+![This is an image](https://raw.githubusercontent.com/pBossq/Project_AI_WBC-subtypes-classification/main/preview_webapp/3.jpg)
+
+## prediction that Monocyte
+
+![This is an image](https://raw.githubusercontent.com/pBossq/Project_AI_WBC-subtypes-classification/main/preview_webapp/4.jpg)
+
+## prediction that Neutrophil
+
+![This is an image](https://raw.githubusercontent.com/pBossq/Project_AI_WBC-subtypes-classification/main/preview_webapp/5.jpg)
