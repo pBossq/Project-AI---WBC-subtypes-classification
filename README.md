@@ -14,7 +14,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
-## First Time ?
+## Prepare before run project
 
 1. Install node.js `https://nodejs.org/en/download/`
 After Install try `node -v` and `npm -v`
